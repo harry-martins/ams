@@ -8,6 +8,6 @@ for num in range(a+1,b):
     sum+=rem**order
     temp=temp//10
   if num==sum:
-    print(num)
+    print(num,end=" ")
   
   
